@@ -24,9 +24,14 @@ def write_data(all_data_to_save):
             f.write(item)
     print (f"File {output_file} generated")
 
-# get the list of file in the repo, to use after to determine if upload or update the file
+# ?????
+# TODO 1:
+# get the list of file in the repo, to use after to determine if need to upload or update the file
 
+# TODO 2:
 # check if file exist in the repo, update or upload again
 
-# add a cron job to automate nightly (separate file in repo)
+# TODO 3:
+# add a cron job to automate nightly (separate file in repo).
 # ref: https://towardsdatascience.com/how-to-schedule-python-scripts-with-cron-the-only-guide-youll-ever-need-deea2df63b4e
+# Explore more how to do this with python
