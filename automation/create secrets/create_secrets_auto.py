@@ -1,6 +1,6 @@
 """
 
-### Goal to create secrets by updating generate_env.py
+### Goal to automate secret files creation by modifying generate_env.py
 # Python Script modification:          .secrets-creator-template-base/create_secrets_auto.py
 
 Script for creating templated terragrunt.hcl files to be used to provision new
@@ -9,7 +9,13 @@ repo as shown below, updating values accordingly.
 
 
 
-#TODO 1): Want script to look through direction. Check if folder/file exists. Print exists. else create it. Print created
+#TODO 1): Want script to look through file directories. Check if folder/file exists. Print exists. else create it. Print created
+# Want to automate secrets creation
+# Files to create:
+# kms-ci-key
+# kms-master-key - us-east-1 and us-west-2
+# secrets/ci
+# secrets/datadog_api
 
 # For example, for kms-ci
 if os.path.exists(f"{os.getcwd()}/{args.aws_account_name}/{args.environment_name}/{args.aws_default_region}/{args.environment_name}/kms-ci-key"):
@@ -26,16 +32,18 @@ if os.path.exists(f"{os.getcwd()}/{args.aws_account_name}/{args.environment_name
 
 
 
-
-#TODO 2): Look through all the main files in the environment 
-
+#TODO 2): Repeat for all the secret files in the environment 
 
 
-
+#TODO 2): Be able to Look through all the main files in the environment and create ones that do not exist
 
 
 
 
+
+
+
+# Modify/take parts of script below to achieve above
 
 python .account-template-base/generate_env.py \
     --aws-account-id 1234567890 \
