@@ -37,6 +37,8 @@ if os.path.exists(f"{os.getcwd()}/{args.aws_account_name}/{args.environment_name
 
 #TODO 2): Be able to Look through all the main files in the environment and create ones that do not exist
 
+#TODO: Not sure. Need more thought into this.
+
 
 
 
@@ -44,6 +46,12 @@ if os.path.exists(f"{os.getcwd()}/{args.aws_account_name}/{args.environment_name
 
 
 # Modify/take parts of script below to achieve above
+
+
+"""
+Script for creating templated terragrunt.hcl files to be used to provision new
+AWS accounts. This script should be run in the root of the infrastructure-live
+repo as shown below, updating values accordingly.
 
 python .account-template-base/generate_env.py \
     --aws-account-id 1234567890 \
@@ -259,14 +267,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-
-
-
-
-# Create kms-ci-key folder
-if os.path.exists(f"{os.getcwd()}/{args.aws_account_name}/{args.environment_name}/{args.aws_default_region}/{args.environment_name}/kms-ci-key"):
-        print(
-            f"Configuration already exists for {args.aws_account_name}/{args.environment_name}/{args.aws_default_region}/{args.environment_name}/kms-ci-key"
-        )
-        else
