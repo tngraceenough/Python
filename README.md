@@ -9,3 +9,4 @@
 - Parse .csv file using dict
 - Automate .aws/config file updates
 - Automate secrets file creation
+- Automate new env creation
