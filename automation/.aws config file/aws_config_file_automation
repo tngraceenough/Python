@@ -8,7 +8,7 @@ file="AWS-config-account.csv"
 output_file="config"
 
 # to get the token, go to github.com, settings,
-# developer settings, personal access token
+# developer settings, personal access token or is there a way around hardcoding this?
 access_token="ghp_111111111111111111111111"
 
 def load_file():
