@@ -1,11 +1,16 @@
 import pandas as pd
 
+
 import os
+
+
 working_directory = os.getcwd()
 print(working_directory)
 
+
 path = working_directory + "/AWS-account-links.csv"
 data = pd.read_csv(path)
+
 
 df = pd.DataFrame(data, columns= ['Account-Name','Account-ID'])
 print (df)
