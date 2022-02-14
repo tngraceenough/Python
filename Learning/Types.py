@@ -1,6 +1,6 @@
 # Types
 
-# Integers, strings, booleans, floats, 
+# Integers, strings, booleans, floats, dict, set, tuple (ordered list of elements), etc
 
 is_game_over = True
 print (is_game_over)
