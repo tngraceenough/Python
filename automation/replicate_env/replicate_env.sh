@@ -1,6 +1,3 @@
-Bash Script:
-
-```
 #!/usr/bin/env bash
 
 echo "test"
@@ -8,6 +5,8 @@ echo "test"
 grep -riH stage .|cut -d':' -f1 | sort -t: -u -k1,1 > file.txt
 
 for file in $(cat file.txt); do sed -i '' 's/stage/preprod/g' $file; done
+
+
 
 #TODO 1) Rename Folders with old env - stage - in name. Look for & Change folder names. try mv command. 
 #cloudfront - site-cdn-stage-medicalnewstoday.com
