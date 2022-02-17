@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+echo "test"
+
+grep -riH rv-bastion-host .|cut -d':' -f1 | sort -t: -u -k1,1 | grep -v ./.git > file.txt
+
+ for file in $(cat file.txt); do sed -i '' '/vpc_id/ i \
+ \ enable_eip = false \
+' $file; done
+
+for file in $(cat file.txt); do sed -i '' '/key_name/d' $file; done
