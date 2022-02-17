@@ -1,0 +1,15 @@
+#IF Statement Examples
+
+#Gaming env
+
+
+key_press = "r"
+
+if key_press == "r" :          # colon signify end of condition
+    print('Move right')
+elif key_press == "l" :        # if above fails will run this
+    print('Move left')
+else:
+    print('Invalid key')       # only executed if everything above fails 
+    
+    
