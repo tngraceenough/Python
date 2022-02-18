@@ -1,0 +1,15 @@
+# While Loops
+# function like if statements but execute code continuously until it breaks once
+# don't know when loop to be met 
+# Most programs run on a loop
+
+x_pos = 0
+end_pos = 5
+
+#while <condition>:
+#    x_pos += 1
+
+while x_pos < end_pos:
+    x_pos += 1
+    print(x_pos)
+print("You've reached the end!")
