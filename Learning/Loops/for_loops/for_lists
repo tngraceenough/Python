@@ -1,0 +1,20 @@
+
+ # Lists
+
+inventory = ['shoes', 'dresses', 'jewellery', 'boots']
+for item in inventory:
+    print(item)
+    
+    
+inventory = ['shoes', 'dresses', 'jewellery', 'boots']
+for _ in inventory:
+    print(_)
+    
+for i in range(4):
+    print(inventory[i])
+    
+for i in range(4):
+    print(inventory[i])
+    i += 1
+    if i == 1:
+        break
