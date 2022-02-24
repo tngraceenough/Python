@@ -1,0 +1,14 @@
+start_pos = 0
+end_pos = 10
+x_pos = 0 
+
+def move(x_pos, by_amount=1 ):     # default parameter
+    global start_pos, end_pos
+    x_pos += by_amount
+    if x_pos < start_pos:
+         return start_pos
+    elif x_pos > end_pos:
+         return end_pos 
+
+final_x_pos = move(x_pos, 5)
+print(final_x_pos)
