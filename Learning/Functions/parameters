@@ -1,0 +1,48 @@
+# Parameters and Return Values
+
+
+# Parameters
+
+x_pos = 0 
+
+def move(by_amount):      # specify parameter
+    global x_pos          # Have to use global to be able to call the variable created outside the fx - global variable
+    x_pos += by_amount           # How fx should behave when called upin
+    
+move(1)                  #Call move fx 
+print(x_pos)
+
+
+
+x_pos = 0 
+
+def move(by_amount):      # specify parameter
+    global x_pos          # Have to use global to be able to call the variable created outside the fx - global variable
+    x_pos += by_amount           # How fx should behave when called upin
+    
+move(4)                  #Call move fx 
+print(x_pos)
+
+
+x_pos = 0 
+
+def move(by_amount):      # specify parameter
+    global x_pos          # Have to use global to be able to call the variable created outside the fx - global variable
+    x_pos += by_amount           # How fx should behave when called upin
+    
+move(100)                  #Call move fx 
+print(x_pos)
+
+
+#If not sure if will always pass a value need to add default value
+
+
+x_pos = 0 
+
+def move(by_amount = 7):      # specify parameter
+    global x_pos          # Have to use global to be able to call the variable created outside the fx - global variable
+    x_pos += by_amount          # How fx should behave when called upin
+    
+move()                  #Call move fx 
+print(x_pos)
+

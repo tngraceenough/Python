@@ -1,0 +1,16 @@
+# For Loops
+# Paired with ranges and lists
+#
+# for loop visits every member in range or list. Starts at beginining and goes through each until reahc last member.
+
+# for var in range/list():
+#     code 
+    
+# Range
+for i in range(1,6):
+    print(i)
+    
+our_range = range(1,6)
+for i in our_range:
+    print(i)
+    

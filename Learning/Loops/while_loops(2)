@@ -1,0 +1,19 @@
+# While Loops
+# continue - skips conditions below
+# break - breaks the loop
+# 
+
+x_pos = 0
+y_pos = 1
+end_pos = 5
+enemy_pos = 3
+
+while x_pos < end_pos:
+    x_pos += 1
+    print(x_pos)
+    if y_pos > 0:
+        continue                                           # skips later conditions below
+    if x_pos == enemy_pos:                                 # break statement
+        print("You've collided with the enemy!")
+        break
+print("Game-Over!")

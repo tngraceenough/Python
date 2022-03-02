@@ -1,0 +1,7 @@
+# Terniary operator returns value based on outcome of test otherwise returns a different value. Forced if/else statement and requires a possible and alternative value
+# returning and storing a value
+
+    
+command = 'Move right' if key_press == 'r' else 'Move left' 
+
+command = 'Move right' if key_press == 'r' else 'Invalid key' 

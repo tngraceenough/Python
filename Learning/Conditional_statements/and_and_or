@@ -1,0 +1,22 @@
+# 'and' and 'or'
+# python uses 'and' rather than '&&'
+
+num_lives = 3
+health = 100
+num_health_kits = 3
+saves = 2
+
+if health <= 0 and num_health_kits <= 0 :          # and means only passes if both conditions are true
+    num_lives -= 1
+    print('You lose a life!')
+    
+    if num_lives <= 0:
+        print('You died!')  
+    
+    if num_health_kits <= 0 or saves <=0:
+        print('You have no more lifesavers!')  
+    
+elif health <= 10:
+    print ('Warning, less than 10% health!')
+elif health <= 50:
+    print ('Warning, less than 50% health!')

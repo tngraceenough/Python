@@ -1,0 +1,11 @@
+x_pos = 2
+end_pos = 5
+enemy_pos = 3
+
+while x_pos < end_pos:
+    x_pos += 1
+    print(x_pos)
+    if x_pos == enemy_pos:                                 # break statement
+        print("You've collided with the enemy!")
+        break
+print("Game-Over!")
