@@ -1,0 +1,16 @@
+class PlayerCharacter:
+    def _init_(self, name, x_pos, health):    # def and initializer/constructor # self - instance method belongs to current class
+        self.name = name                       # setting current class name, x_pos and health
+        self.x_pos = x_pos
+        self.health = health
+        
+    def move(self, by_amount):
+        self.x_pos += by_amount                 # storing new value of x_pos in new object created by class
+        
+    def take_demage(self, amount):
+        self.health -= amount
+        if self.health < 0:
+            self.health = 0
+            
+    def check_is_dead(self):
+        return self.health <= 0
