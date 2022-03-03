@@ -1,0 +1,35 @@
+# Objects 
+
+class GameCharacter:
+    
+    def _init_(self, name, x_pos, health):    # def and initializer/constructor # self - instance method belongs to current class
+        self.name = name                       # setting current class name, x_pos and health
+        self.x_pos = x_pos
+        self.health = health
+        
+    def move(self, by_amount):
+        self.x_pos += by_amount                 # storing new value of x_pos in new object created by class
+        
+    def take_damage(self, amount):
+        self.health -= amount
+        if self.health < 0:
+            self.health = 0
+            
+    def check_is_dead(self):
+        return self.health <= 0
+    
+    game_character = GameCharacter('Nimish', 5, 100)
+    other_character = GameCharacter('Other', 0, 50)
+
+    print(type(game_character))
+    print(game_character.name)
+    print(other_character.name)
+
+    game_character.move(-2)
+    print(game_character.x_pos)
+
+    game_character.take_damage(200)
+    print(game_character.health)
+    print(game_character.check_is-dead)
+        
+     
