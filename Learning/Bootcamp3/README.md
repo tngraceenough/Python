@@ -1,5 +1,8 @@
 # Variable Naming / Code Conventions
 
+# [Cheatsheat](https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-hello-world/cheatsheet)
+# [Control Flow](https://www.codecademy.com/learn/learn-python-3/modules/learn-python3-control-flow/cheatsheet)   
+
 # variables need to be:
     
 ## 1. snake_case       #(underscores between words)
