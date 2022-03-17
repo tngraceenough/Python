@@ -26,3 +26,34 @@ name = "Colt"
 name2 = 'Colt'
 print(name)
 print(name2)
+
+
+
+message = "Hello! \nWhere_are_you_from?"
+print(message)
+
+mountains = "/\\/\\/\\"
+print(mountains)
+
+quotation = "Hello! backslash \\"
+print(quotation)
+
+doublequotes = "Hello! \"Where_are_you_from?\""
+print(doublequotes)
+
+
+
+#String Concatenation
+# Combining multiple strings together
+# only works with strings 
+# not integers, floats, booleans etc
+
+str_1 = "your"
+str_2 = "face"
+str_3 = str_1 + " " + str_2 # your face 
+
+print(str_3)
+
+
+username = "bluethecat"
+print("Hello there and welcome to the game" + " " + username)
