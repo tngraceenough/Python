@@ -57,3 +57,51 @@ print(str_3)
 
 username = "bluethecat"
 print("Hello there and welcome to the game" + " " + username)
+
+
+
+# Formating Strings
+# Interpolations
+# F-strings  = takes anything in { } and converts it to a string 
+# format method = {} .format(10)
+
+x = 10
+formatted = f"I've told you {x} times already!"
+print(formatted)
+
+
+x = 10
+formatted = "I've told you {} times already!".format(100)
+print(formatted)
+
+
+fruit = "banana"
+ripeness = "unripe"
+
+print("The {fruit} is {ripeness}")
+
+
+
+first = "Trina"
+last = "Ned"
+
+formatted = "First Name: {}, Last Name:  {}".format(first, last)
+print(formatted)
+
+
+
+#Strings Indices
+# name[3] = m , name[0] = n , name[4] = e 
+
+
+
+"lol"[0]
+
+
+name = "Supercalifragilistic"
+
+print(name[11])
+print(name[7])
+print(name[14])
+
+
