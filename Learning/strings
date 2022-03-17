@@ -1,3 +1,11 @@
+# Strings 
+
+# sequence of characters
+
+string = "8"
+type(string)
+
+
 # Declaring Strings
 # "strings" and 'strings' - eithe fine but stick to one convention throughout a file
 
