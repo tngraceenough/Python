@@ -1,0 +1,18 @@
+ None character
+# represents nothingness 
+# python version of null
+
+
+None
+
+name = "Daisy"
+age = 30
+child = None
+print(child)
+type(child)
+
+
+name = "Daisy"
+age = 30
+child = None
+print(child)
