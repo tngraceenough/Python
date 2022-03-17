@@ -1,0 +1,55 @@
+# Logical Operators - Boolean operators
+
+# and if a and b:  # both a and b must be true
+# or
+# not
+
+# And 
+
+age = 6
+age > 2 and age < 8
+
+
+age = 6
+age > 2 and age < 8
+
+
+if age > 2 and age < 8:
+    print("You pay child price")
+    
+# Or     
+    
+city = input("where do you live?")
+
+if city == "los angeles" or city == "San Francisco":
+    print("You live in California")
+else:
+    print("You live Elsewhere")
+    
+    
+    
+age = 21
+
+if not ((age >= 2 and age <=8) or age >= 65):
+    print("You pay $10 aand are not a child or senior")
+else:
+    print("You are a child or a senior")
+    
+    
+    
+age = 4
+
+if not ((age >= 2 and age <=8) or age >= 65):
+    print("You pay $10 aand are not a child or senior")
+else:
+    print("You are a child or a senior")
+    
+    
+ # Not 
+ 
+ 1 < 2
+ 
+ not 1 < 2
+ 
+ not 1 > 2
+ 
