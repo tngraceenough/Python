@@ -1,0 +1,20 @@
+# Declaring Strings
+# "strings" and 'strings' - eithe fine but stick to one convention throughout a file
+
+
+my_other_str = 'a hat'
+my_str       = "a cat"
+
+print('my_str')
+print ("my_other_str")
+
+
+
+
+
+
+
+name = "Colt"
+name2 = 'Colt'
+print(name)
+print(name2)
