@@ -1,0 +1,20 @@
+#Miles to Kilometers converter
+
+print("How many kilometers did you run today?")
+miles = float(input())
+# Or float(kms)/1.60934 # Conversion to kilometers
+
+print("Ok, you said" + miles)
+
+
+
+print("How many kilometers did you run today?")
+kms = input()
+miles = float(kms)/1.60934
+# Or float(kms)/1.60934 # Conversion to kilometers
+
+miles = round(miles, 2)
+print(f"That's equal to {miles} miles")
+
+
+# round (thing to round , how many decimal points)
