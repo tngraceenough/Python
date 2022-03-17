@@ -1,0 +1,43 @@
+# EScape Sequences
+# String Escape Characters
+# Inside of strings or quotes have escape sequences
+
+new_line = "hello"
+
+
+# Escape Sequences
+# \n - starts are new line
+# \\ - escape
+# \' - single quote
+# \"  - double quote
+# \a -
+# \b - 
+# \f - 
+# \n - 
+# \r - 
+# \t - 
+# \v - 
+# \ooo - 
+# \xhh - 
+
+# Only recognized in single strings 
+
+#\N{name}  - character named name inunicode db
+# \uxxx - character with 16-bit hex value
+
+# \uxxxxxxxx - character with 32-bit hex value
+    
+
+new_line = "Hi! \nthere"   # \n - starts are new line
+print(new_line)
+
+str = "this is a backslash: \\"    # \\ - escape
+print(str)
+
+
+str_b = "hel\blo"
+str_b
+
+
+str_c = "he said \"ha ha\""
+str_c
