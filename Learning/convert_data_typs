@@ -1,0 +1,19 @@
+# Converting Data Types
+# Use name of built in type as a function 
+
+decimal = 12.5678990
+integer = int(decimal)
+
+print(integer)
+
+
+num = 12
+type(num)
+
+
+num = 12
+num = float(num)
+print(num)
+
+int(99.9999676)
+
