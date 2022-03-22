@@ -1,0 +1,72 @@
+# randint
+# import randint
+# python docs 
+# random.randint(a, b)
+# Return a random integer N such that a <= N <= b. Alias for randrange(a, b+1).
+
+# from random import randint
+
+# rand_num = random.randinit(0,2)
+# if rand_num == 0:
+#     computer = "rock"
+# if rand_num == 1:
+#     computer = "paper"
+# if rand_num == 2:
+#     computer = "scissors"
+# f("Computer plays {computer}")
+
+
+# print("Rock...")
+# print("Paper...")
+# print("Scissors...")
+
+from random import randint
+
+player_1 = input("Enter Player 1's choice").lower()  # .lower() makes it case insensitive
+rand_num = randint(0,2)
+
+
+if rand_num == 0:
+    computer = "rock"
+       
+elif rand_num == 1:
+    computer = "paper"
+    
+else:
+    computer = "scissors"
+    
+if player_1 == computer:
+    print("Draw!!!!!!!")
+    
+elif player_1 == "rock":
+    if computer == "scissors":
+        print("player_1 wins!!!")
+    else:
+        print("computer wins")
+elif player_1 == "paper":
+    if computer == "rock":
+        print("player_1 wins!")
+    else:
+        print("computer wins")    
+elif player_1 == "scissors":
+    if computer == "paper":
+        print("player_1 wins!")
+    else:
+        print("computer wins")   
+    
+    
+        print("player_1 wins!")
+    elif computer == "paper":
+        print("computer wins")
+elif player_1 == "paper":
+    if computer == "rock":
+        print("player_1 wins!")
+    elif computer == "scissors":
+        print("player_2 wins")
+elif player_1 == "scissors":
+    if computer == "paper":
+        print("player_1 wins!")
+    elif computer == "rock":
+        print("computer wins")
+else:
+    print("something is wrong")
