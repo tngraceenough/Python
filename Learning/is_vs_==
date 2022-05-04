@@ -1,0 +1,13 @@
+# is vs "=="
+# Test for equality
+
+a = 1  
+a == 1   # Truthy
+a is 1 # Truthy
+
+
+a = [1, 2, 3]  # separate object in memmory - every [ ] creates new object
+b = [1, 2, 3]   # separate object in memmory - every [ ] creates new object
+a == b # Truthy
+
+a is b # False - checks if stored is same place in memory checks for equality of objects

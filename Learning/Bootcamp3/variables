@@ -1,0 +1,64 @@
+# Variables
+
+x = 100
+dragons = 1
+
+print(dragons + x)
+
+y = 22
+
+
+print(dragons + x * y)
+
+
+num_of_cats =99
+print(num_of_cats)
+
+
+num_of_cats =99
+print(num_of_cats * 22)
+
+
+
+
+
+# Variable re-assignment
+
+num_of_cats =99
+garfields = num_of_cats
+print(garfields)
+
+
+num_of_cats =99
+num_of_cats = num_of_cats -7
+print(num_of_cats)
+
+
+num_of_cats =99
+friends = num_of_cats
+print(friends)
+
+
+
+
+# Variable Restrictions 
+
+# must have letters, numbers or underscores
+# variable names are case sensitive
+# variables must start with letters or underscores
+
+people = 7
+_person = 1
+
+print(people + _person)
+
+
+# Things you cannot name variables
+
+# 2people = 2
+# print(2people)
+
+# Things you cannot name variables
+
+# pe*ple = 7
+# print(pe*ple)

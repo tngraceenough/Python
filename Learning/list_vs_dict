@@ -1,0 +1,18 @@
+#List = ordered sequence of values which you can store data in and are ordered
+
+#dict = a collection of key: values eg. first_name = "Thabi": last_name_letter = "N"
+
+
+
+
+# Dynamic Typing = can reassign variable to different datatype 
+# python is dynamically typed unlicke C++
+
+awesomeness = True
+print(awesomeness)
+
+awesomeness = "dogs"
+print(awesomeness)
+
+awesomeness = 22*27
+print(awesomeness)

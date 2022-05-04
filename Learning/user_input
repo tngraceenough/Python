@@ -1,0 +1,12 @@
+# Getting User Input
+
+name = input("Enter your name here: ")
+
+data = input("What's your favorite color")
+
+
+#Output on different line 
+
+print("What's your favorite color")
+data = input( )
+

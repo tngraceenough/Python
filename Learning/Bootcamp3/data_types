@@ -1,0 +1,28 @@
+# Datatypes
+
+
+# Booleans = True or False or Yes or No or 0 (true)  and 1 (false)  # must be capital
+
+True
+False
+
+is_active = True
+is_active
+
+game_over = False
+game_over
+
+
+# Strings 
+
+# sequence of characters
+
+string = "8"
+type(string)
+
+type(8)
+
+
+#List = ordered sequence of values which you can store data in and are ordered
+
+#dict = a collection of key: values eg. first_name = "Thabi": last_name_letter = "N"

@@ -1,0 +1,11 @@
+# Dynamic Typing = can reassign variable to different datatype 
+# python is dynamically typed unlicke C++
+
+awesomeness = True
+print(awesomeness)
+
+awesomeness = "dogs"
+print(awesomeness)
+
+awesomeness = 22*27
+print(awesomeness)

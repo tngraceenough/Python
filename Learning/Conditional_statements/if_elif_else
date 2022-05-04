@@ -1,0 +1,45 @@
+# Conditional Statements:
+
+# if some condition is true: (if true will only run this if line)
+#  do something
+
+# elif some other condition is true: ( if other thing was not true)
+#  do something 
+# else:
+#     do something
+# need only 1 else as catch all but can have several elifs
+# Indentation matters
+# Syntax matters (:)
+
+
+if name == "Winner Games":
+  print("Lord of Games")
+elif name == "Lady Games":
+ print("Queen of Games")
+else:
+    print("Carry on")
+    
+    
+choice = 11
+if choice == "7":
+    print("lucky")
+else:
+    print("unlucky")
+    
+    
+num = 11
+if num % 2 != 0:
+    print("odd")
+    
+else:
+    print("even")
+    
+color = input("What is your favorite color?")
+if color == "purple":
+    print("Excellent choice!")
+elif color == "pink":
+    print("Not bad")
+elif color == "red":
+    print("I like how you think")
+else:
+    print("Ugh! You monster")

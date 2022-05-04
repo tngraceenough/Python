@@ -1,0 +1,107 @@
+# Strings 
+
+# sequence of characters
+
+string = "8"
+type(string)
+
+
+# Declaring Strings
+# "strings" and 'strings' - eithe fine but stick to one convention throughout a file
+
+
+my_other_str = 'a hat'
+my_str       = "a cat"
+
+print('my_str')
+print ("my_other_str")
+
+
+
+
+
+
+
+name = "Colt"
+name2 = 'Colt'
+print(name)
+print(name2)
+
+
+
+message = "Hello! \nWhere_are_you_from?"
+print(message)
+
+mountains = "/\\/\\/\\"
+print(mountains)
+
+quotation = "Hello! backslash \\"
+print(quotation)
+
+doublequotes = "Hello! \"Where_are_you_from?\""
+print(doublequotes)
+
+
+
+#String Concatenation
+# Combining multiple strings together
+# only works with strings 
+# not integers, floats, booleans etc
+
+str_1 = "your"
+str_2 = "face"
+str_3 = str_1 + " " + str_2 # your face 
+
+print(str_3)
+
+
+username = "bluethecat"
+print("Hello there and welcome to the game" + " " + username)
+
+
+
+# Formating Strings
+# Interpolations
+# F-strings  = takes anything in { } and converts it to a string 
+# format method = {} .format(10)
+
+x = 10
+formatted = f"I've told you {x} times already!"
+print(formatted)
+
+
+x = 10
+formatted = "I've told you {} times already!".format(100)
+print(formatted)
+
+
+fruit = "banana"
+ripeness = "unripe"
+
+print("The {fruit} is {ripeness}")
+
+
+
+first = "Trina"
+last = "Ned"
+
+formatted = "First Name: {}, Last Name:  {}".format(first, last)
+print(formatted)
+
+
+
+#Strings Indices
+# name[3] = m , name[0] = n , name[4] = e 
+
+
+
+"lol"[0]
+
+
+name = "Supercalifragilistic"
+
+print(name[11])
+print(name[7])
+print(name[14])
+
+

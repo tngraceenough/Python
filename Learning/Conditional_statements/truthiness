@@ -1,0 +1,14 @@
+# Truthiness
+
+# x == 1
+# x is 1 # Truthiness
+# x is 0 # Falseness
+
+
+animal = input("enter your favorite animal")
+
+if animal:
+    print(animal +  ' ' + "is my favorite animal!!")
+    
+else:
+    print("No animals huh?")
